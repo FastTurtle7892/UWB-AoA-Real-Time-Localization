@@ -16,31 +16,30 @@
 ---
 
 ## 2. 시스템 및 신호 흐름 비교
-
-<table>
-  <tr>
-    <th align="center">삼각측량법 RTLS</th>
-    <th align="center">AoA RTLS</th>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="./TRI_CAR.png" width="400" height="400" alt="삼각측량 RTLS 시스템">
-    </td>
-    <td align="center">
-      <img src="./AOA_CAR.png" width="400" height="400" alt="AoA RTLS 시스템">
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="./TRI_MSG.png" width="400" height="700" alt="기존 RTLS 신호 흐름">
-    </td>
-    <td align="center">
-      <img src="./AOA_MSG.png" width="400" height="700" alt="AoA RTLS 신호 흐름">
-    </td>
-  </tr>
-</table>
-
-> 좌측은 기존 삼각측량법 기반 RTLS, 우측은 AoA RTLS의 구조와 신호 흐름을 나타냅니다.
+<div align="center">
+  <table>
+    <tr>
+      <th align="center">삼각측량법 RTLS</th>
+      <th align="center">AoA RTLS</th>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="./TRI_CAR.png" width="400" height="400" alt="삼각측량 RTLS 시스템">
+      </td>
+      <td align="center">
+        <img src="./AOA_CAR.png" width="400" height="400" alt="AoA RTLS 시스템">
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="./TRI_MSG.png" width="400" height="700" alt="기존 RTLS 신호 흐름">
+      </td>
+      <td align="center">
+        <img src="./AOA_MSG.png" width="400" height="700" alt="AoA RTLS 신호 흐름">
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
@@ -117,7 +116,7 @@
   - MATLAB UART 통신 시 데이터 누락 → 버퍼 주기적 초기화로 해결
 
 <p align="center">
-  <img src="./RESULT.png" width="600" alt="Experiment Results">
+  <img src="./RESULT.png" width="400" alt="Experiment Results">
 </p>
 
 ---
@@ -144,6 +143,7 @@
 🏆 **한국 전자파 학회 제 4회 대학생 창의설계 경진대회 동상 수상**
 
 ---
+
 
 
 
