@@ -17,9 +17,6 @@
 
 ## 2. 시스템 및 신호 흐름 비교
 
-
-## 2. 시스템 및 신호 흐름 비교
-
 <table>
   <tr>
     <th align="center">삼각측량법 RTLS</th>
@@ -27,18 +24,18 @@
   </tr>
   <tr>
     <td align="center">
-      <img src="./TRI_CAR.png" width="400" height="300" alt="기존 삼각측량 RTLS 시스템">
+      <img src="./TRI_CAR.png" width="400" height="400" alt="삼각측량 RTLS 시스템">
     </td>
     <td align="center">
-      <img src="./AOA_CAR.png" width="400" height="300" alt="AoA RTLS 시스템">
+      <img src="./AOA_CAR.png" width="400" height="400" alt="AoA RTLS 시스템">
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="./TRI_MSG.png" width="400" height="300" alt="기존 RTLS 신호 흐름">
+      <img src="./TRI_MSG.png" width="400" height="700" alt="기존 RTLS 신호 흐름">
     </td>
     <td align="center">
-      <img src="./AOA_MSG.png" width="400" height="300" alt="AoA RTLS 신호 흐름">
+      <img src="./AOA_MSG.png" width="400" height="700" alt="AoA RTLS 신호 흐름">
     </td>
   </tr>
 </table>
@@ -66,16 +63,43 @@
 
 ## 4. 하드웨어 구성
 
-| 역할 | 모델명 / 칩셋 | 설명 |
-|------|---------------|------|
-| **Anchor** | Nordic nRF52840 + Qorvo DW3110 | DS-TWR 기반 UWB 통신, AoA 계산용 신호 수집 |
-| **Tag** | Nordic nRF52840 + Qorvo DW3110 | 이동 객체에 부착, UWB 송수신 |
-| **Antenna** | XR-170 UWB Directional Antenna | 고지향성으로 AoA 추정 성능 향상 |
-| **시각화** | MATLAB | UART 데이터 수신 후 실시간 위치 시각화 |
+<div align="center">
+
+<table align="center" width="90%">
+  <tr>
+    <th align="center">역할</th>
+    <th align="center">모델명 / 칩셋</th>
+    <th align="center">설명</th>
+  </tr>
+  <tr>
+    <td align="center"><strong>Anchor</strong></td>
+    <td align="center">Nordic nRF52840 + Qorvo DW3110</td>
+    <td align="center">DS-TWR 기반 UWB 통신, AoA 계산용 신호 수집</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Tag</strong></td>
+    <td align="center">Nordic nRF52840 + Qorvo DW3110</td>
+    <td align="center">이동 객체에 부착, UWB 송수신</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Antenna</strong></td>
+    <td align="center">XR-170 UWB Directional Antenna</td>
+    <td align="center">고지향성으로 AoA 추정 성능 향상</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>시각화</strong></td>
+    <td align="center">MATLAB</td>
+    <td align="center">UART 데이터 수신 후 실시간 위치 시각화</td>
+  </tr>
+</table>
+
+</div>
 
 <p align="center">
   <img src="./EXPERIMENT.png" width="600" alt="Hardware Setup and Experiment Environment">
 </p>
+
+
 
 ---
 
@@ -106,7 +130,13 @@
 ---
 
 ## 7. 데모 영상
-[![Demo Video](https://img.youtube.com/vi/SgOs7Dkw7NQ/0.jpg)](https://www.youtube.com/watch?v=SgOs7Dkw7NQ)
+
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=SgOs7Dkw7NQ">
+    <img src="https://img.youtube.com/vi/SgOs7Dkw7NQ/0.jpg" width="600" alt="Demo Video Thumbnail">
+  </a>
+</p>
 
 ---
 
@@ -114,5 +144,6 @@
 🏆 **한국 전자파 학회 제 4회 대학생 창의설계 경진대회 동상 수상**
 
 ---
+
 
 
