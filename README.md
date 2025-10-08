@@ -3,11 +3,21 @@
 > **Single Anchor + Single Tag 실시간 위치 추적 시스템**  
 > DS-TWR 기반 거리(Ranging)와 AoA(Angle of Arrival) 기반 각도(Angle Estimation)를 융합해 **저복잡도·실시간 RTLS**를 구현
 
+[![UWB](https://img.shields.io/badge/UWB-IEEE%20802.15.4z-blue)]()
+[![Localization](https://img.shields.io/badge/Localization-AoA-green)]()
+[![Award](https://img.shields.io/badge/Award-전자파학회%20동상-orange)]()
+
 ---
 
 ## 1. 개요
 **단일 앵커(Anchor)**와 **단일 태그(Tag)** 만으로 실시간 위치 추적(Real-Time Locating System, RTLS)을 구현하는 것을 목표로 합니다.  
 기존 삼각측량 방식이 최소 3개 이상의 앵커를 요구하는 것과 달리, **AoA(Angle of Arrival)**를 도입해 **앵커 수를 줄이고 시스템 구조를 단순화**했습니다.
+
+<!-- 프로젝트 개념 다이어그램 이미지 -->
+<p align="center">
+  <!-- 여기에 시스템 개념 그림 삽입 -->
+  <!-- 예: <img src="./docs/system_overview.png" width="600" alt="System Overview"> -->
+</p>
 
 ---
 
@@ -21,12 +31,23 @@
 - **표준** : IEEE 802.15.4z HRP UWB
 - **안테나** : UWB 지향성 안테나 (XR-170)
 
+<!-- 이론/수식 이미지 -->
+<p align="center">
+  <!-- AoA 계산 수식, DS-TWR 거리 측정 다이어그램 등 삽입 -->
+  <!-- 예: <img src="./docs/aoa_equation.png" width="500" alt="AoA Theory"> -->
+</p>
+
 ---
 
 ## 3. 주요 성과 및 분석
 ### ✅ 성과
 - **단일 앵커 + 태그 구성**으로 DS-TWR과 AoA 융합 실시간 RTLS 구현 성공
 - 실험 환경에서 **실시간 위치 추적 데이터 수집 및 시각화** 완료
+
+<!-- 실험 환경 사진 -->
+<p align="center">
+  <!-- 예: <img src="./docs/testbed.jpg" width="500" alt="Experiment Setup"> -->
+</p>
 
 ### ⚠️ 문제점 및 해결
 - **Y축 오차**  
@@ -40,6 +61,11 @@
 - 앵커 배치 최적화 및 보조 신호 활용으로 Y축 오차 감소
 - 실시간 필터링(EKF, UKF) 적용으로 잡음 및 지터 완화
 
+<!-- 오차 분석 그래프 -->
+<p align="center">
+  <!-- 예: <img src="./docs/error_plot.png" width="500" alt="Error Analysis"> -->
+</p>
+
 ---
 
 ## 4. 개발 및 참고
@@ -49,8 +75,12 @@
 
 ---
 
-## 5. 데모영상
-- https://www.youtube.com/watch?v=SgOs7Dkw7NQ
+## 5. 데모 영상
+[![Demo Video](https://img.youtube.com/vi/SgOs7Dkw7NQ/0.jpg)](https://www.youtube.com/watch?v=SgOs7Dkw7NQ)
 
-## 6. 한국 전자파 학회 제 4회 대학생 창의설계 경진대회 동상 수상
+---
 
+## 6. 수상
+🏆 **한국 전자파 학회 제 4회 대학생 창의설계 경진대회 동상 수상**
+
+---
