@@ -50,6 +50,7 @@
 ---
 
 ## 5. 데모영상
-- http://xn--youtube-h503a.com/watch?v=SgOs7Dkw7NQ
+- https://www.youtube.com/watch?v=SgOs7Dkw7NQ
 
 ## 6. 한국 전자파 학회 제 4회 대학생 창의설계 경진대회 동상 수상
+
