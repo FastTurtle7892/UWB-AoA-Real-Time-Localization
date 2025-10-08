@@ -17,25 +17,24 @@
 
 ## 2. 시스템 및 신호 흐름 비교
 
-<p align="center">
-  <strong>기존 삼각측량 RTLS</strong>
-</p>
 
-<p align="center">
-  <img src="./TRI_CAR.png" width="45%" alt="기존 삼각측량 RTLS 시스템">
-  <img src="./AOA_CAR.png" width="45%" alt="AoA RTLS 시스템">
-</p>
+<table>
+  <tr>
+    <th align="center">삼각측량법 RTLS</th>
+    <th align="center">AoA RTLS</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="./TRI_CAR.png" width="90%" alt="기존 삼각측량 RTLS 시스템"></td>
+    <td align="center"><img src="./AOA_CAR.png" width="90%" alt="AoA RTLS 시스템"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="./TRI_MSG.png" width="90%" alt="기존 RTLS 신호 흐름"></td>
+    <td align="center"><img src="./AOA_MSG.png" width="90%" alt="AoA RTLS 신호 흐름"></td>
+  </tr>
+</table>
 
-<p align="center">
-  <strong>신호 교환 과정 비교</strong>
-</p>
+> 좌측은 기존 삼각측량법 기반 RTLS, 우측은 AoA RTLS의 구조와 신호 흐름을 나타냅니다.
 
-<p align="center">
-  <img src="./TRI_MSG.png" width="45%" alt="기존 RTLS 신호 흐름">
-  <img src="./AOA_MSG.png" width="45%" alt="AoA RTLS 신호 흐름">
-</p>
-
-> 좌측은 기존 삼각측량법 기반 RTLS, 우측은 AoA RTLS 구조 및 신호 흐름을 나타냅니다.
 
 ---
 
@@ -106,3 +105,4 @@
 🏆 **한국 전자파 학회 제 4회 대학생 창의설계 경진대회 동상 수상**
 
 ---
+
