@@ -24,18 +24,18 @@
     </tr>
     <tr>
       <td align="center">
-        <img src="./TRI_CAR.png" width="400" height="400" alt="삼각측량 RTLS 시스템">
+        <img src="./imgs/TRI_CAR.png" width="400" height="400" alt="삼각측량 RTLS 시스템">
       </td>
       <td align="center">
-        <img src="./AOA_CAR.png" width="400" height="400" alt="AoA RTLS 시스템">
+        <img src="./imgs/AOA_CAR.png" width="400" height="400" alt="AoA RTLS 시스템">
       </td>
     </tr>
     <tr>
       <td align="center">
-        <img src="./TRI_MSG.png" width="400" height="700" alt="기존 RTLS 신호 흐름">
+        <img src="./imgs/TRI_MSG.png" width="400" height="700" alt="기존 RTLS 신호 흐름">
       </td>
       <td align="center">
-        <img src="./AOA_MSG.png" width="400" height="700" alt="AoA RTLS 신호 흐름">
+        <img src="./imgs/AOA_MSG.png" width="400" height="700" alt="AoA RTLS 신호 흐름">
       </td>
     </tr>
   </table>
@@ -95,7 +95,7 @@
 </div>
 
 <p align="center">
-  <img src="./EXPERIMENT.png" width="600" alt="Hardware Setup and Experiment Environment">
+  <img src="./imgs/EXPERIMENT.png" width="600" alt="Hardware Setup and Experiment Environment">
 </p>
 
 
@@ -116,7 +116,7 @@
   - MATLAB UART 통신 시 데이터 누락 → 버퍼 주기적 초기화로 해결
 
 <p align="center">
-  <img src="./RESULT.png" width="400" alt="Experiment Results">
+  <img src="./imgs/RESULT.png" width="400" alt="Experiment Results">
 </p>
 
 ---
@@ -143,6 +143,7 @@
 🏆 **한국 전자파 학회 제 4회 대학생 창의설계 경진대회 동상 수상**
 
 ---
+
 
 
 
