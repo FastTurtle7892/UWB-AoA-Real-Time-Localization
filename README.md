@@ -42,21 +42,40 @@
 </div>
 
 ---
-
 ## 3. 핵심 기술 및 구현 방식
-- **거리 측정 (Ranging)**  
+
+- **거리 측정 (Ranging)**
   - DS-TWR(Double-Sided Two-Way Ranging)을 사용하여 태그와 앵커 간의 정밀한 거리(R) 계산
-- **각도 측정 (Angle Estimation)**  
+- **각도 측정 (Angle Estimation)**
   - UWB 안테나 배열의 위상차(Phase Difference) 기반 AoA 계산
-- **위치 추정**  
-  - 거리 R과 각도 θ를 결합하여 2D 좌표를 실시간 산출
+- **위치 추정**
+  - 거리 R과 각도 $\theta$를 결합하여 2D 좌표를 실시간 산출
 - **표준**: IEEE 802.15.4z HRP UWB
 - **안테나**: XR-170 UWB 지향성 안테나
 
-<p align="center">
-  <!-- AoA/DS-TWR 이론 및 신호 흐름 -->
-  <img src="./docs/aoa_methodology.png" width="600" alt="AoA Methodology (추후 업데이트 예정)">
-</p>
+| DS-TWR (거리 측정) | AoA (각도 측정) |
+| :---: | :---: |
+| <img width="411" height="147" alt="AoA Diagram" src="https://github.com/user-attachments/assets/977d79b8-7ec6-4300-8c58-126f8e606e96"> | <img width="224" height="234" alt="DS-TWR Diagram" src="https://github.com/user-attachments/assets/e37c7578-ba79-491c-ba59-383611eb9a40"> 
+
+### AoA (Angle of Arrival) 추정 원리
+
+안테나 간의 거리($d$)와 수신 신호의 위상차($\Delta\phi$)를 이용하여 입사각($\Theta$)을 계산합니다.
+
+$$
+\lambda : 2\pi = \text{전파의 이동거리} : \Delta\phi
+$$
+$$
+\lambda : 2\pi = d \cdot \sin\Theta : \Delta\phi
+$$
+$$
+\sin\Theta = \frac{\lambda \cdot \Delta\phi}{2\pi \cdot d}
+$$
+$$
+\sin\Theta = \frac{\Delta\phi}{\pi}
+$$
+$$
+\theta = \arcsin\left(\frac{\Delta\phi}{\pi}\right)
+$$
 
 ---
 
@@ -143,6 +162,7 @@
 🏆 **한국 전자파 학회 제 4회 대학생 창의설계 경진대회 동상 수상**
 
 ---
+
 
 
 
