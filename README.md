@@ -53,9 +53,13 @@
 - **표준**: IEEE 802.15.4z HRP UWB
 - **안테나**: XR-170 UWB 지향성 안테나
 
-| DS-TWR (거리 측정) | AoA (각도 측정) |
-| :---: | :---: |
-| <img width="411" height="147" alt="AoA Diagram" src="https://github.com/user-attachments/assets/977d79b8-7ec6-4300-8c58-126f8e606e96"> | <img width="224" height="234" alt="DS-TWR Diagram" src="https://github.com/user-attachments/assets/e37c7578-ba79-491c-ba59-383611eb9a40"> 
+<div style="text-align: center; margin: 0 auto;">
+
+  | DS-TWR (거리 측정) | AoA (각도 측정) |
+  | :---: | :---: |
+  | <img width="411" height="147" alt="AoA Diagram" src="https://github.com/user-attachments/assets/977d79b8-7ec6-4300-8c58-126f8e606e96"> | <img width="224" height="234" alt="DS-TWR Diagram" src="https://github.com/user-attachments/assets/e37c7578-ba79-491c-ba59-383611eb9a40">
+
+</div>
 
 ### AoA (Angle of Arrival) 추정 원리
 
@@ -162,6 +166,7 @@ $$
 🏆 **한국 전자파 학회 제 4회 대학생 창의설계 경진대회 동상 수상**
 
 ---
+
 
 
 
