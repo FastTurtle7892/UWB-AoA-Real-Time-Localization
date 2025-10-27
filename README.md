@@ -53,7 +53,7 @@
 - **표준**: IEEE 802.15.4z HRP UWB
 - **안테나**: XR-170 UWB 지향성 안테나
 
-<div style="text-align: center; margin: 0 auto;">
+<div align="center">
 
   | DS-TWR (거리 측정) | AoA (각도 측정) |
   | :---: | :---: |
@@ -166,6 +166,7 @@ $$
 🏆 **한국 전자파 학회 제 4회 대학생 창의설계 경진대회 동상 수상**
 
 ---
+
 
 
 
